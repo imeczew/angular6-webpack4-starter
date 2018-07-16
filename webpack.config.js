@@ -34,6 +34,10 @@ module.exports = function(env, argv) {
       extensions: [".ts", ".js", ".html"]
     },
 
+    externals: {
+      jquery: 'jQuery'
+    },
+
     module: {
       rules: [
         // Typescript
